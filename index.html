@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Work Tool</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dark: {
+                            100: '#E5E7EB',
+                            200: '#D1D5DB',
+                            300: '#9CA3AF',
+                            400: '#4B5563',
+                            500: '#374151',
+                            600: '#1F2937',
+                            700: '#111827',
+                            800: '#0B0F19',
+                            900: '#030712',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-dark-800 text-dark-100 min-h-screen p-8">
+    <div class="container mx-auto">
+        <h1 class="text-3xl font-bold mb-8">Support Work Tool</h1>
+        
+        <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
+            <!-- Support Work Details -->
+            <div class="lg:col-span-1 bg-dark-700 p-6 rounded-lg shadow-lg">
+                <h2 class="text-xl font-semibold mb-4">Support Work Details</h2>
+                <p class="mb-2">Version: 1.0.0</p>
+            </div>
+
+            <!-- Table -->
+            <div class="lg:col-span-4 bg-dark-700 p-6 rounded-lg shadow-lg overflow-x-auto">
+                <table class="w-full text-left">
+                    <thead>
+                        <tr class="border-b border-dark-600">
+                            <th class="py-2 px-4">S.no</th>
+                            <th class="py-2 px-4">Requirement</th>
+                            <th class="py-2 px-4">Tech stack</th>
+                            <th class="py-2 px-4">Demo Date</th>
+                            <th class="py-2 px-4">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Sample rows, you can add more or make this dynamic -->
+                        <tr class="border-b border-dark-600">
+                            <td class="py-2 px-4">1</td>
+                            <td class="py-2 px-4">User Authentication</td>
+                            <td class="py-2 px-4">Node.js, Express, MongoDB</td>
+                            <td class="py-2 px-4">2023-06-15</td>
+                            <td class="py-2 px-4">
+                                <span class="bg-green-500 text-white px-2 py-1 rounded-full text-xs">Completed</span>
+                            </td>
+                        </tr>
+                        <tr class="border-b border-dark-600">
+                            <td class="py-2 px-4">2</td>
+                            <td class="py-2 px-4">Dashboard UI</td>
+                            <td class="py-2 px-4">React, Tailwind CSS</td>
+                            <td class="py-2 px-4">2023-06-20</td>
+                            <td class="py-2 px-4">
+                                <span class="bg-yellow-500 text-white px-2 py-1 rounded-full text-xs">In Progress</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 px-4">3</td>
+                            <td class="py-2 px-4">API Integration</td>
+                            <td class="py-2 px-4">GraphQL, Apollo</td>
+                            <td class="py-2 px-4">2023-06-25</td>
+                            <td class="py-2 px-4">
+                                <span class="bg-red-500 text-white px-2 py-1 rounded-full text-xs">Pending</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // You can add any necessary JavaScript here
+    </script>
+</body>
+</html>
