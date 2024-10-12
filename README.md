@@ -8,3 +8,6 @@ This project for creating the support application.
 ```source myenv/bin/activate```
 - pip install -r requirements.txt
 - streamlit run main.py
+
+# Git flow
+<img width="269" alt="image" src="https://github.com/user-attachments/assets/a7620fda-4d38-42e4-9323-bc822e325e9f">
